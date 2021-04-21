@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+body{
+	font-size: 16px;
+	color: #333;
+	font-family: 'Poppins', sans-serif;
+	background-color: #101637;
+}
+/**header**/
+
+.logo{
+	height: 60px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition-duration: 0.3s;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: red;
+}
+
+.bg-light{
+	background-color: #101637 !important;
+}
+
+/**header**/
+
+/**banner-section**/
+.banner-section{
+	background: #13182a url(../images/dhua.png);
+	background-size: cover;
+	padding: 180px 0px;
+}
+.banner{
+	
+	
+}
+.banner h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.banner p{
+	font-size: 16px;
+	max-width: 500px;
+	margin: auto;
+	color: red;
+	padding-bottom: 10px; 
+}
+.btn-custom{
+	background: red;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	margin: auto;
+	padding: 10px 30px;
+	border-radius: 3px;
+	transition-duration: 0.4s;
+}
+.btn-custom:hover{
+	background-color: #fff;
+	color: #333;
+}
+/**banner-section**/
+
+
+/**about section**/
+.about_section{
+	background: #0a0d1b;
+}
+.about-img{
+	padding: 40px 0px;
+}
+.about-text{color: #b2b2b2;text-align: center;font-size: 16px;font-weight: 300;}
+.about-text h2{font-size: 40px;font-weight: 400;color: #fff; position: relative;padding-bottom: 10px;}
+.about-text h2::after{
+	content: "";
+	width: 65px;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	transform: translateX(50%);
+}
+.about-text h3{font-size: 25px;color: #fff;font-weight: 700;}
+.about-text span{color: #e70b0b;}
+.about-text b{color: #ed3d3d;font-weight: 400;}
+.about-text p{padding: 10px 0px;}
+/**about section**/
+
+
+/**program section**/
+.program_section{
+	background-color: ;
+	padding: 50px 0px;
+	transition-duration: 0.8s;
+}
+.program_section:hover{
+	background-color: #7C1ABF;
+}
+.program{
+	margin-top: 50px;
+}
+.program img{
+	
+}
+.proper-size{
+	height: 300px;
+	transition-duration: 0.5s;
+}
+.proper-size:hover{
+	
+	opacity: 0.3s;
+}
+.heading{
+	position: relative;
+	padding-top: 50px;
+	color: #fff;
+	padding-bottom: 10px 0px;
+
+}
+.heading::after{
+	content: "";
+	width: 65px;
+	height: 2px;
+	background: #e70b0b;
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	transform: translateX(50%);
+}
+.heading span{
+		color: #e70b0b;
+}
+.heading h4{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+.program span{
+	color: #e70b0b;
+}
+.program h5{
+	padding-top: 20px;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+}
+.program p{
+	color: #fff;
+	max-width: 420px;
+	font-size: 14px;
+	font-weight: 200;
+	margin: auto;
+}
+/**program section**/
+
+
+/**intructor section**/
+.instructor-section{
+	background-color: #0a0d1b;
+	padding: 50px 0px;
+}
+.instructor{
+	margin-top: 50px;
+	transition-duration: 0.9s;
+}
+.instructor:hover{
+	background-color:;
+	box-shadow: 2px 5px 19px 4px #3983c3;
+}
+.instructor img{
+	padding-bottom: 20px;
+
+}
+.instructor h5{
+	font-size: 25px;
+	color: red;
+	font-weight: 500;
+}
+.instructor p{
+	font-size: 17px;
+	font-weight: 300;
+	color: green;
+	font-weight: 500;
+}
+.instructor a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #0A82ED;
+	transition-duration: 0.4s;
+}
+.instructor a:hover{
+	color: red;
+}
+/**intructor section**/
+/**address section**/
+.address-section{
+	background: #F94E5D;
+	padding: 50px 0px;
+	transition-duration: 0.7s;
+}
+.address-section:hover{
+	background-color: #7C1ABF;
+}
+.address{}
+.address span{font-size: 20px;font-weight: 600;color: #07eb6a;}
+.address h6{font-size: 25px;font-weight: 400;color: #f7f7f7;}
+/**address section**/
+
+/**taekwondo section**/
+.Taekwondo-section{
+	background-image:  url(../images/punch.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9s;
+	padding: 80px 0px;
+}
+.Taekwondo{}
+.Taekwondo h6{
+	font-size: 25px;
+	font-weight: 600;
+	color: #e01c1c;
+}
+.Taekwondo p{font-size: 16px;color: #d2d2d2;font-weight: 300;}
+/**taekwondo section**/
+
+/**footer**/
+footer{
+	padding: 25px 0px;
+}
+.copyright{}
+.copyright a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 500;
+	transition-duration: 0.4s;
+}
+.copyright a:hover{
+	color: red;
+}
+/**footer**/
+
+/**master section**/
+.master{
+	padding: 50px 0px;
+	text-align: center;
+}
+.master h2{
+	font-size: 35px;
+	color: red;
+}
+.master p{
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+}
+.master a{
+	font-size: 35px;
+	color: #0B85EE;
+}
+.master a:hover{
+	color: red;
+}
+.master h3{
+	font-size: 15px;
+	color: #08ff00;
+	padding-bottom: 20px;
+}
+.master-section{
+	background-image: url(../images/instructor.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/**master section**/
+
+/**fram section**/
+.frame-section{
+	background-color: #0C0F1E;
+}
+.caption{
+	
+}
+}
+.caption span{}
+.caption h2{
+	padding-bottom: 10px;
+}
+.frame{
+	margin-top: 40px;
+	transition-duration: 0.4s;
+}
+.frame:hover{
+	box-shadow: 2px 2px 15px 0px #d3e0ea;
+}
+.red{
+
+}
+.red:hover{
+
+	box-shadow: 1px 1px 13px 1px #d3e0ea;
+}
+
+/**fram section**/
+
+.higt{
+	height: 500px;
+}
+
+.contact-section{
+	
+	background-image:  url(../images/punch.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	opacity: 0.9s;
+	padding: 217px 0px;
+}
+.bgc{
+    background-color: #e33838;
+    padding: 25px 20px;
+    height: 160px;
+    transition-duration: 0.5s;
+}
+.bgc:hover{
+    background-color: #7c1abf;
+}
+.bgc span{}
+.bgc h6{}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgb(251 0 0) !important;
+}
+
+.Taekwondo-section{
+	color: #fff;
+}
+
+.Taekwondo-section h6{
+	color: red;
+	font-size: 25px;
+}
+
+.Taekwondo-section p{
+	color: #ffc75f;
+	font-weight: 300;
+	
+}

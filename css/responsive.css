@@ -1,0 +1,235 @@
+@media (max-width: 1399px){
+    
+}
+
+
+@media (max-width: 1199px){
+    .program_section {
+    padding: 20px 0px;
+}
+.program h5 {
+    padding-top: 20px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.proper-size {
+    transition-duration: 0.5s;
+}
+.heading {
+    padding-top: 25px;
+}
+.about-text p {
+    font-size: 14px;
+}
+.instructor-section {
+    padding: 25px 0px;
+}
+.instructor h5 {
+    font-size: 20px;
+}
+.Taekwondo-section {
+    padding: 30px 0px;
+}
+.Taekwondo h6 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.Taekwondo p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.copyright a {
+    font-size: 14px;
+    font-weight: 300;
+}
+.contact-section {
+    padding: 170px 0px;
+}
+
+}
+
+@media (max-width: 991px){
+    
+}
+
+@media (max-width: 766px){
+    
+}
+
+@media (max-width: 575px){
+    
+    .logo{
+        width: 60px;
+        
+    }
+    .nav-link{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+.banner-section {
+    background: #13182a url(../images/dhua.png);
+        background-size: auto;
+    background-size: cover;
+    padding: 180px 0px;
+    height: 425px;
+}
+.banner h1 {
+    color: #e5e5e5;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.banner p {
+    font-size: 11px;
+    max-width: 300px;
+    margin: auto;
+    color: red;
+    padding-bottom: 10px;
+}
+.btn-custom {
+    background: red;
+        background-color: red;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: auto;
+    padding: 8px 20px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+}
+.about-img {
+    display: none;
+}
+
+.about_section {
+    background: #1b254f;
+    padding: 50px;
+}
+.about-text h2 {
+    font-size: 25px;
+}
+.about-text p {
+    padding: 10px 0px;
+    font-size: 13px;
+    color: #fff;
+}
+.about-text h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+.about-text b {
+    color: #ed3d3d;
+    font-weight: 500;
+    font-size: 13px;
+}
+.program_section {
+    padding: 30px 0px;
+}
+.heading {
+    padding-top: 20px;
+    font-size: 25px;
+}
+.heading h4 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.program {
+    margin-top: 30px;
+}
+.instructor-section {
+    background-color: #0a0d1b;
+    padding: 30px 0px;
+}
+.instructor img {
+    padding-bottom: 25px;
+}
+.instructor:hover {
+    box-shadow: 0px 0px 0px 0px ;
+}
+.instructor {
+    margin-top: 30px;
+}
+.instructor h5 {
+    font-size: 20px;
+}
+.instructor p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.address-section {
+    padding: 30px 0px;
+    transition-duration: 0.8s;
+}
+.address span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #08fb71;
+}
+.address h6 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #f7f7f7;
+}
+.Taekwondo-section {
+    padding: 40px 0px;
+}
+.Taekwondo h6 {
+    font-size: 20px;
+}
+.Taekwondo p {
+    font-size: 14px;
+    color: #ffc75f;
+    font-weight: 300;
+}
+footer {
+    padding: 20px 0px;
+}
+.copyright a {
+    font-size: 12px;
+    font-weight: 300;
+}
+.heading {
+    padding-top: 25px;
+}
+.frame:hover {
+    box-shadow: 1px 1px 13px 1px #d3e0ea00;
+}
+.master {
+    padding: 30px 0px;
+    text-align: center;
+}
+.master h3 {
+    font-size: 13px;
+    font-weight: 300;
+}
+.master h2 {
+    font-size: 25px;
+    color: red;
+}
+.master p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.higt {
+    height: 400px;
+    width: 100%;
+}
+.bgc {
+    margin-bottom: 25px;
+}
+.contact-section {
+    padding: 40px 0px;
+}
+
+
+}
+
+}
+
